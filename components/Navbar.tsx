@@ -31,12 +31,10 @@ export default function Navbar() {
     color: "var(--accent)",
     background: "rgba(0,229,255,0.08)",
     textShadow: "0 0 10px rgba(0,229,255,0.6)",
-    borderRadius: 0,
   };
   const inactiveStyle = {
     color: "var(--text-muted)",
     background: "transparent",
-    borderRadius: 0,
   };
 
   return (
