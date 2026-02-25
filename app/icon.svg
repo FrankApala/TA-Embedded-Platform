@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003344"/>
+      <stop offset="50%" stop-color="#0099cc"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="32" height="32" rx="4" fill="#00080d"/>
+
+  <!-- T letter -->
+  <rect x="4" y="7" width="11" height="2.5" rx="0.8" fill="url(#grad)"/>
+  <rect x="8.5" y="9.5" width="2.5" height="12" rx="0.8" fill="url(#grad)"/>
+
+  <!-- A letter (triangle shape) -->
+  <polygon points="19,7 27,21.5 11,21.5" fill="none" stroke="url(#grad)" stroke-width="2.4" stroke-linejoin="round"/>
+  <rect x="15.5" y="16" width="8" height="2" rx="0.6" fill="url(#grad)"/>
+
+  <!-- PCB trace dots -->
+  <circle cx="4.5" cy="25" r="1" fill="#00e5ff" opacity="0.9"/>
+  <circle cx="8" cy="25" r="1" fill="#00e5ff" opacity="0.6"/>
+  <circle cx="11.5" cy="25" r="1" fill="#00e5ff" opacity="0.3"/>
+</svg>
